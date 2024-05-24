@@ -1,0 +1,13 @@
+.DropDownMenu__item{
+    padding: 8px;
+    /* user-select: none; */
+    margin: 2px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.DropDownMenu__item:hover{
+    background-color: #ba8dd644;
+}

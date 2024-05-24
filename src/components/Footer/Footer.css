@@ -1,0 +1,16 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: var(--grey);
+    margin-top: 50px;
+}
+
+.footer h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

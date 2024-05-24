@@ -1,0 +1,28 @@
+.event__img{
+    max-width: 242px;
+    max-height: 180px;
+    
+}
+
+.event {
+    max-width: 242px;
+}
+
+.event__img img {
+    object-fit: cover;
+}
+
+.event__text {
+    max-width: 242px;
+}
+
+.event__category,
+.event__place,
+.event__time {
+    font-size: 14px;
+}
+
+.event__header {
+    font-size: 26px;
+    font-weight: 500;
+}

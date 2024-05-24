@@ -1,0 +1,28 @@
+.findSection {
+    background-color: var(--white-grey);
+    margin-bottom: 50px;
+}
+
+.findSectionContainer {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.findSection__header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.findSection__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.findSection__filters {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}

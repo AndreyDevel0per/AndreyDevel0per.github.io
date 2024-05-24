@@ -1,0 +1,35 @@
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 0 20px;
+    height: 70px;
+    color: var(--white);
+    background-color: var(--grey);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.header__menu img,
+.header__search img {
+    height: 30px;
+}
+
+.header__logo img {
+    height: 65px;
+}
+
+.header__img {
+    height: 190px;
+    margin-top: 70px;
+}
+
+.header__img img{
+    height: 190px;
+    object-fit: cover;
+    width: 100%;
+}
+

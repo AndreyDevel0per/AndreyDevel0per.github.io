@@ -1,0 +1,22 @@
+.dropDownMenu__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 52px;
+    color: var(--grey);
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.dropDownMenu__button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+    font-size: 20px;
+}
+
+.button_open {
+    border: #783A9C 2px solid;
+}
