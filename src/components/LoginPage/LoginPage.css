@@ -1,0 +1,58 @@
+.loginPage {
+    margin-top: 70px;
+    min-height: 450px;
+}
+
+.loginPage input {
+    border: 1px black solid;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    display: block;
+}
+
+.loginPage__container {
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 20px;
+    z-index: 100;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.loginPage__container h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.loginPage__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginPage__button {
+    padding-top: 10px;
+}
+
+.loginPage__header {
+    background-color: #808080;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.loginPage__header span {
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#result {
+    min-height: 24px;
+}

@@ -1,21 +1,25 @@
 .card {
     min-height: 380px;
-    background: linear-gradient(rgba(183, 187, 207, 0.2), rgba(63, 70, 106, 0.5)), url(../../img/cards/card1.webp);
+    background: linear-gradient(rgba(183, 187, 207, 0.2), rgba(0, 0, 0, 0.5));
     /* position: absolute;
     z-index: -1;*/
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card img {
+    position: absolute;
+    z-index: -1;
 }
 
 .card__text {
     padding-top: 180px;
     min-width: 350px;
     color: var(--white);
-    /* backdrop-filter: blur(2px); */
 }
 
 .card__name {

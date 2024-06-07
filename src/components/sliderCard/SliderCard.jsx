@@ -1,19 +1,20 @@
 import "./sliderCard.css";
 // import card from '../../img/cards/card1.webp'
 
-export default function Card(img) {
+export default function Card({img, category, name, date}) {
+
   return (
     <div className="card">
-      {/* <img src={card} alt="" /> */}
+      <img src={img} alt="" />
       <div className="card__text">
         <div className="card__category">
-          <span>Sports</span>
+          <span>{category}</span>
         </div>
         <div className="card__name">
-          <h2>Los Angeles Dodgers</h2>
+          <h2>{name}</h2>
         </div>
         <div className="card__date">
-          <span>May 7</span>
+          <span>{date}</span>
         </div>
       </div>
     </div>

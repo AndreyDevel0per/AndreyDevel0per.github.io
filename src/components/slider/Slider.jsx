@@ -2,6 +2,10 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Card from '../sliderCard/SliderCard'
 import './slider.css'
+import card1 from '../../img/cards/card1.webp'
+import card2 from '../../img/cards/card2.webp'
+import card3 from '../../img/cards/card3.webp'
+import card4 from '../../img/cards/card4.webp'
 
 export default function Slider() {
     const responsive = {
@@ -23,17 +27,38 @@ export default function Slider() {
           items: 1
         }
       };
+    
+    const content = [
+      {
+        img: card1,
+        category: 'Sport',
+        name: 'Los Angeles Dodgers',
+        date: 'June 6'
+      },
+      {
+        img: card2,
+        category: 'Music',
+        name: 'Hip Hop',
+        date: 'June 29'
+      },
+      {
+        img: card3,
+        category: 'Museum',
+        name: 'Exhibition',
+        date: 'June 9'
+      },
+      {
+        img: card4,
+        category: 'Theatre',
+        name: 'Theatre acting master class',
+        date: 'June 10'
+      }
+    ]
 
     return (
         <div className='slider'>
             <Carousel responsive={responsive}>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                {content.map(item => <Card img={item.img} category={item.category} name={item.name} date={item.date}/>)}
             </Carousel>
         </div>
     )

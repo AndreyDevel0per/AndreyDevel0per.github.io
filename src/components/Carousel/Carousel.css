@@ -1,0 +1,28 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.carousel__container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carousel:hover .carousel__slide {
+    animation-play-state: paused;
+}
+
+.carousel__slide {
+    display: flex;
+    height: 80px;
+    background-color: var(--grey);
+    align-items: center;
+    animation: 100s slide infinite linear;
+}

@@ -1,28 +1,28 @@
 import './Event.css'
-import eventImg from '../../img/events/event1.webp'
-
-export default function Event() {
+import { Link } from 'react-router-dom'
+ 
+export default function Event({id, img, category, name, place, time}) {
     return(
-        <div className='event'>
+        <Link to={`/event/${id}`} className='event'>
             <div className="event__img">
-                <img src={eventImg} alt="" />
+                <img src={img} alt="" />
             </div>
             <div className="event__text">
                 <div className="event__category">
-                    Music
+                    {category}
                 </div>
                 <div className="event__header">
                     <h2>
-                        Someone
+                        {name}
                     </h2>
                 </div>
                 <div className="event__place">
-                    Somewhere
+                    {place}
                 </div>
                 <div className="event__time">
-                    7:00
+                    {time}
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }

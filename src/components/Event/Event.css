@@ -6,6 +6,7 @@
 
 .event {
     max-width: 242px;
+    color: var(--grey);
 }
 
 .event__img img {

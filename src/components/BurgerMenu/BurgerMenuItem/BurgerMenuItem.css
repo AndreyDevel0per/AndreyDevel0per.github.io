@@ -1,0 +1,21 @@
+.burgerMenuItem__header {
+    font-size: 22px;
+}
+
+.burgerMenuItem{
+    padding: 7px 0;
+    padding-left: 8px;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.burgerMenuItem:hover{
+    background-color: var(--white);
+    transition: all 0.4s ease-out;
+    color: black;
+}
+
+.burgerMenuItem__button {
+    display: flex;
+    flex-direction: column;
+}

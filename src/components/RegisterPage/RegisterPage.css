@@ -1,0 +1,8 @@
+.registerPage {
+    margin-top: 150px;
+    min-height: 600px;
+}
+
+.registerPage input {
+    border: 1px black solid;
+}

@@ -1,0 +1,12 @@
+.carouselItem {
+    width: 320px;
+    height: 42px;
+    background-color: var(--grey);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px white solid;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 24px;
+}

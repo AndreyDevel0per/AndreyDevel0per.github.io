@@ -6,7 +6,9 @@ const DropDownButton = forwardRef((props, ref) => {
     const {children, open, toggle} = props
     return (
         <div ref={ref} onClick = {toggle} className={`dropDownMenu__button ${open ? "button_open" : null}`}>
-            {children}
+            <div className="dropDownMenu__text">
+                {children}
+            </div>
             <span>
                 {open ? <FaChevronUp/> : <FaChevronDown/>}
             </span>
